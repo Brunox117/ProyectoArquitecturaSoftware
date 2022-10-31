@@ -1,9 +1,9 @@
 # WebServer.rb
-#run with ruby WebServer.rb
+#run with -> ruby -I . -w WebServer.rb
 require 'sinatra'
 
 get '/' do
-  send_file 'index.html'
+  erb :index
 end
 
 get '/preguntas' do
