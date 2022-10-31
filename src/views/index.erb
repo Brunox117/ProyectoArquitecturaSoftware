@@ -18,13 +18,14 @@
     <div div class="col-md-12 text-center">
         <h5>Selecciona cuantas preguntas quieres responder!</h5>
         <select id="opcionesNum" class="form-select" aria-label="Default select example">
-            <option selected value="5">5</option>
-            <option value="6">6</option>
-            <option value="7">7</option>
-            <option value="8">8</option>
-            <option value="9">9</option>
-            <option value="10">10</option>
+            <option selected value="5"><%@cantidadPreguntas = 5%> 5</option>
+            <option value="6"><%@cantidadPreguntas = 6%> 6</option>
+            <option value="7"><%@cantidadPreguntas = 7%> 7</option>
+            <option value="8"><%@cantidadPreguntas = 8%> 8</option>
+            <option value="9"><%@cantidadPreguntas = 9%> 9</option>
+            <option value="10"><%@cantidadPreguntas = 10%> 10</option>
         </select>
+        <h6>preguntas seleccionadas = <%= @cantidadPreguntas%></h6>
         <a href="/preguntas" class="btn btn-primary" type="button">Comenzar!</a>
     </div>
 </body>

@@ -3,6 +3,7 @@
 require 'sinatra'
 
 get '/' do
+  @cantidadPreguntas = 5
   erb :index
 end
 
