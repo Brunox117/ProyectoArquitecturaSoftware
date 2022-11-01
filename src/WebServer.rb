@@ -8,5 +8,5 @@ get '/' do
 end
 
 get '/preguntas' do
-  'Aqui van las preguntas'
+  "Aqui irian {#@cantidadPreguntas} preguntas"
 end
