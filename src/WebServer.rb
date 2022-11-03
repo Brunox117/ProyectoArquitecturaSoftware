@@ -8,5 +8,5 @@ get '/' do
 end
 
 get '/preguntas' do
-  "Aqui irian {#@cantidadPreguntas} preguntas"
+  erb :preguntas
 end
