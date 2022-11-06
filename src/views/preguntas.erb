@@ -5,5 +5,16 @@
     </head>
     <body>
         Aqui van <%= @cantidadPreguntas%>
+        <ol>
+        <% @info.each do |pregunta| %>
+        <li>
+            Este es el id <b><%= pregunta['ID']%></b>,
+            Esta es la pregunta <b><%= pregunta['Pregunta']%></b>,
+            Esta es la respuesta correcta <b><%= pregunta['Correcta']%></b>,
+            Esta es una opcion incorrecta <b><%= pregunta['Incorrecta1']%></b>,
+            Esta es otra opcion incorrecta <b><%= pregunta['Incorrecta2']%></b>,
+        </li>
+        <%end%>
+        </ol>
     </body>
 </html>
