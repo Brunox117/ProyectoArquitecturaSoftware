@@ -18,5 +18,10 @@ get '/preguntas' do
   if response.success?
     @info = JSON.parse(response.body)
   end
+  #de info elegir solo @cantidadPreguntas de manera aleatoria
   erb :preguntas
+end
+
+get 'respuestas' do
+
 end
