@@ -23,3 +23,5 @@ To test the program, inside the +src+ folder type the following instruction at t
 - \A. Ortiz. <em>ArielOrtiz.info</em> {https://arielortiz.info/apps/s202213/tc3049/programming_microservices/}[https://arielortiz.info/apps/s202213/tc3049/programming_microservices/] Accesed November 10, 2022.
 
 - Medium. <em>4+1 Architectural view model in Software</em> {https://medium.com/javarevisited/4-1-architectural-view-model-in-software-ec407bf27258}[https://medium.com/javarevisited/4-1-architectural-view-model-in-software-ec407bf27258] Accessed November 13, 2022.
+
+- GeeksForGeeks. <em>Ruby | Array sample() function</em> {https://www.geeksforgeeks.org/ruby-array-sample-function/}[https://www.geeksforgeeks.org/ruby-array-sample-function/] Accessed November 13, 2022.
