@@ -1,4 +1,4 @@
-= Command pattern
+= Quiz app aplication with microservices
 
 This documentation was developed as part of a programming activity for the <em>Software Design and Architecture</em> course (_Tc3049_), at the Tecnológico de Monterrey, Campus Estado de México.
 
@@ -17,9 +17,9 @@ rdoc-image:img/commandpattern_uml.png
 
 To test the program, inside the +src+ folder type the following instruction at the command line:
 
-    ruby -I . -w control_test.rb
+    ruby -I . -w WebServer.rb
 
 == References
-- \A. Ortiz. <em>ArielOrtiz.info</em> {https://arielortiz.info/apps/s202213/tc3049/programming_command/}[https://arielortiz.info/apps/s202213/tc3049/programming_command/] Accesed September 10, 2022.
+- \A. Ortiz. <em>ArielOrtiz.info</em> {https://arielortiz.info/apps/s202213/tc3049/programming_microservices/}[https://arielortiz.info/apps/s202213/tc3049/programming_microservices/] Accesed November 10, 2022.
 
-- Refactoring guru. <em>Command</em> {https://refactoring.guru/es/design-patterns/command}[https://refactoring.guru/es/design-patterns/command] Accessed September 10, 2022.
+- Medium. <em>4+1 Architectural view model in Software</em> {https://medium.com/javarevisited/4-1-architectural-view-model-in-software-ec407bf27258}[https://medium.com/javarevisited/4-1-architectural-view-model-in-software-ec407bf27258] Accessed November 13, 2022.
