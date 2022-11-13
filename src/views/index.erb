@@ -17,7 +17,7 @@
 <body>
     <div div class="col-md-12 text-center">
         <h5>Selecciona cuantas preguntas quieres responder!</h5>
-        <select class="form-select" aria-label="Default select example">
+        <select class="form-select" id="num_preguntas" aria-label="Default select example">
             <option value="5">5</option>
             <option value="6">6</option>
             <option value="7">7</option>
@@ -25,8 +25,16 @@
             <option value="9">9</option>
             <option value="10">10</option>
         </select>
-        <h6>preguntas seleccionadas = <%= @cantidadPreguntas%></h6>
-        <a href="/preguntas" class="btn btn-primary" type="button">Comenzar!</a>
+        <h6 id="texto">preguntas seleccionadas = <%= session[:cantidadPreguntas]%></h6>
+        <a id="boton" class="btn btn-primary" type="button">Comenzar!</a>
+        <script>
+        //document.getElementById("num_preguntas").onchange = function() {myFunction()};
+        document.getElementById("boton").onclick = function() {myFunction()};
+        function myFunction() {
+            n = document.getElementById("num_preguntas").value
+            location.href = "/preguntas/"+n;
+        }
+        </script>
     </div>
 </body>
 
