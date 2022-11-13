@@ -1,1 +1,25 @@
-# ProyectoArquitecturaSoftware
+= Command pattern
+
+This documentation was developed as part of a programming activity for the <em>Software Design and Architecture</em> course (_Tc3049_), at the Tecnológico de Monterrey, Campus Estado de México.
+
+== Authors
+
+* *A01748931* <em>Bruno Omar Jimenez Mancilla</em>
+* *A01748559* <em>Roberto Castro Barrios</em>
+
+== Overview
+
+The <b>Command Pattern</b> is design pattern that turns an application into an independent object.
+
+The UML diagram for this programming activity is as follows:
+
+rdoc-image:img/commandpattern_uml.png
+
+To test the program, inside the +src+ folder type the following instruction at the command line:
+
+    ruby -I . -w control_test.rb
+
+== References
+- \A. Ortiz. <em>ArielOrtiz.info</em> {https://arielortiz.info/apps/s202213/tc3049/programming_command/}[https://arielortiz.info/apps/s202213/tc3049/programming_command/] Accesed September 10, 2022.
+
+- Refactoring guru. <em>Command</em> {https://refactoring.guru/es/design-patterns/command}[https://refactoring.guru/es/design-patterns/command] Accessed September 10, 2022.
