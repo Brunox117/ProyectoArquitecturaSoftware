@@ -18,6 +18,7 @@ get '/preguntas/:n' do
   if response.success?
     @info = JSON.parse(response.body)
   end
-  #de info elegir solo @cantidadPreguntas de manera aleatoria
+  @preguntas = []
+  @preguntas = @info.sample(@cantidadPreguntas)
   erb :preguntas
 end
