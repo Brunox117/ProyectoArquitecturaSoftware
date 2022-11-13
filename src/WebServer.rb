@@ -11,8 +11,8 @@ get '/' do
   erb :index
 end
 
-get '/preguntas' do
-  @cantidadPreguntas = session[:cantidadPreguntas]
+get '/preguntas/:n' do
+  @cantidadPreguntas = params['n'].to_i || 5
   response = Faraday.get(URLpreguntas)
   @info = []
   if response.success?
@@ -20,8 +20,4 @@ get '/preguntas' do
   end
   #de info elegir solo @cantidadPreguntas de manera aleatoria
   erb :preguntas
-end
-
-get 'respuestas' do
-
 end
