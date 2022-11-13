@@ -1,0 +1,18 @@
+Borrar este archivo despues
+{
+  "ID": {
+    "S": "1"
+  },
+  "Correcta": {
+    "S": "Decorator"
+  },
+  "Incorrecta1": {
+    "S": "Singleton"
+  },
+  "Incorrecta2": {
+    "S": "Template method"
+  },
+  "Pregunta": {
+    "S": "It´s a structural design pattern"
+  }
+}
