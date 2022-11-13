@@ -67,3 +67,20 @@ Borrar este archivo despues
     "S": "It´s an antipattern"
   }
 }
+{
+  "ID": {
+    "S": "5"
+  },
+  "Correcta": {
+    "S": "Creational, Structural, Behavioral"
+  },
+  "Incorrecta1": {
+    "S": "Project Management, Architecture, Development"
+  },
+  "Incorrecta2": {
+    "S": "Refactoring, 4 + 1 view model, Behavioral"
+  },
+  "Pregunta": {
+    "S": "Three types of design patterns"
+  }
+}
