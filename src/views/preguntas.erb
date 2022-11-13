@@ -6,7 +6,7 @@
     <body>
         Aqui van <%= @cantidadPreguntas%>
         <ol>
-        <% @info.each do |pregunta| %>
+        <% @preguntas.each do |pregunta| %>
         <li>
             Este es el id <b><%= pregunta['ID']%></b>,
             Esta es la pregunta <b><%= pregunta['Pregunta']%></b>,
