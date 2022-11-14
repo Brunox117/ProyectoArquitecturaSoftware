@@ -84,3 +84,54 @@ Borrar este archivo despues
     "S": "Three types of design patterns"
   }
 }
+{
+  "ID": {
+    "S": "6"
+  },
+  "Correcta": {
+    "S": "Encapsulates a command request as an object"
+  },
+  "Incorrecta1": {
+    "S": "Sequentially access the elements of a collection"
+  },
+  "Incorrecta2": {
+    "S": "Creates a fully initialized instance to be copied or cloned"
+  },
+  "Pregunta": {
+    "S": "The command pattern: "
+  }
+}
+{
+  "ID": {
+    "S": "7"
+  },
+  "Correcta": {
+    "S": "Add responsabilities to objects dynamically"
+  },
+  "Incorrecta1": {
+    "S": "Separetes an object´s interface from its implementation"
+  },
+  "Incorrecta2": {
+    "S": "Creates an instance of several families of classes"
+  },
+  "Pregunta": {
+    "S": "The decorator pattern:"
+  }
+}
+{
+  "ID": {
+    "S": "8"
+  },
+  "Correcta": {
+    "S": "Sequentially access the elements of a collection"
+  },
+  "Incorrecta1": {
+    "S": "A way of passing a request between a chain of objects"
+  },
+  "Incorrecta2": {
+    "S": "Match interfaces of different classes"
+  },
+  "Pregunta": {
+    "S": "Iterator patter: "
+  }
+}
