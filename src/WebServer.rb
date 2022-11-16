@@ -20,6 +20,18 @@ get '/preguntas/:n' do
   end
   @preguntas = []
   @preguntas = @info.sample(@cantidadPreguntas)
+  session[:listaPreguntas] = @preguntas
+  session[:cantidadPreguntas] = @cantidadPreguntas
   @n = 0
   erb :preguntas
+end
+
+get '/respuestas/:response' do
+    @resp = params['response']
+    @resp.to_s
+    @resp = @resp.split(',')
+    @preguntas = session[:listaPreguntas]
+    @cantidadPreguntas = session[:cantidadPreguntas]
+    @n = 0
+    erb :respuestas
 end
