@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
     <head>
         <meta charset="UTF-8">
@@ -18,16 +17,33 @@
         <ol>
         <% @preguntas.each do |pregunta| %>
         <li>
-
-            Este es el id <b id="<%@n%>"><%= pregunta['ID']%></b>,
-            Esta es la pregunta <b><%= pregunta['Pregunta']%></b>,
-            Esta es la respuesta correcta <b><%= pregunta['Correcta']%></b>,
-            Esta es una opcion incorrecta <b><%= pregunta['Incorrecta1']%></b>,
-            Esta es otra opcion incorrecta <b><%= pregunta['Incorrecta2']%></b>,
+            <div class="form-group">
+            <label for=<%@n%>>Pregunta: <%= pregunta['Pregunta']%></label>
+            <select class="form-control" id=<%=@n%>>
+              <option>Seleciona una respuesta...</option>
+              <option><%= pregunta['Correcta']%></option>
+              <option><%= pregunta['Incorrecta1']%></option>
+              <option><%= pregunta['Incorrecta2']%></option>
+            </select>
+            <br>
             <%@n = @n + 1%>
         </li>
         <%end%>
         </ol>
         <a id="boton" class="btn btn-primary" type="button">Resultados</a>
+        <script>
+        //document.getElementById("num_preguntas").onchange = function() {myFunction()};
+        document.getElementById("boton").onclick = function() {myFunction()};
+        function myFunction() {
+            let respuestas = [];
+            let n = <%= @cantidadPreguntas%>
+            console.log("Cantidad: "+ n);
+            for (let i = 0; i < n; i++) {
+                respuestas.push(document.getElementById(i).value);
+            }
+            console.log(respuestas)
+            location.href = "/respuestas/"+respuestas;
+        }
+        </script>
     </body>
 </html>
