@@ -66,3 +66,5 @@ rdoc-image:img/use_case_diagram.png
 - Medium. <em>4+1 Architectural view model in Software</em> {https://medium.com/javarevisited/4-1-architectural-view-model-in-software-ec407bf27258}[https://medium.com/javarevisited/4-1-architectural-view-model-in-software-ec407bf27258] Accessed November 13, 2022.
 
 - GeeksForGeeks. <em>Ruby | Array sample() function</em> {https://www.geeksforgeeks.org/ruby-array-sample-function/}[https://www.geeksforgeeks.org/ruby-array-sample-function/] Accessed November 13, 2022.
+
+- Sinatra. <em>Sinatra Docs</em> {https://sinatrarb.com}[https://sinatrarb.com] Accessed November 12, 2022.
