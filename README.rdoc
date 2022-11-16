@@ -7,6 +7,19 @@ This documentation was developed as part of a programming activity for the <em>S
 * *A01748931* <em>Bruno Omar Jimenez Mancilla</em>
 * *A01748559* <em>Roberto Castro Barrios</em>
 
+== Directory Structure
+    ProyectoArquitecturaSoftware/
+              ├─ doc/                        Folder produced by RDoc.
+              └─ src/                        Folder for the application’s source code.
+                   └─ views/                 Folder for the application’s views (ERB files).
+== Installing and Running the Application
+
+To run these project you need Ruby 2.6 or better the {Sinatra}[http://www.sinatrarb.com/] gem installed and the Faraday {Sinatra}[http://www.sinatrarb.com/] gem. To run the server type the following command at the terminal from the +ProyectoArquitecturaSoftware/src+ directory:
+
+    $ ruby -I . -w WebServer.rb
+
+Afterwards, point your web browser the server’s root URL.
+
 == Overview
 
 The <b>Command Pattern</b> is design pattern that turns an application into an independent object.
