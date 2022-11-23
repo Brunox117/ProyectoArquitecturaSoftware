@@ -1,4 +1,3 @@
-Borrar este archivo despues
 {
   "ID": {
     "S": "1"
@@ -133,5 +132,719 @@ Borrar este archivo despues
   },
   "Pregunta": {
     "S": "Iterator patter: "
+  }
+}
+{
+  "ID": {
+    "S": "9"
+  },
+  "Correcta": {
+    "S": "Is a literary form that describes a commonly occurring solution to a problem that generates decidedly negative consequences."
+  },
+  "Incorrecta1": {
+    "S": "A way of design patterns to solve problems."
+  },
+  "Incorrecta2": {
+    "S": "A class that organizes all subclasses"
+  },
+  "Pregunta": {
+    "S": "What is an AntiPattern "
+  }
+}
+{
+  "ID": {
+    "S": "10"
+  },
+  "Correcta": {
+    "S": "Describe useful forms of software refactoring."
+  },
+  "Incorrecta1": {
+    "S": "Design patterns to solve problems."
+  },
+  "Incorrecta2": {
+    "S": "Describe the measures that can be taken at several levels to improve the developing of applications,"
+  },
+  "Pregunta": {
+    "S": "What is a goal of Software Development AntiPatterns:"
+  }
+}
+{
+  "ID": {
+    "S": "11"
+  },
+  "Correcta": {
+    "S": "Chain of responsibility, Command, Mediator, and Observer."
+  },
+  "Incorrecta1": {
+    "S": "Null Object, Mediator, Memento, and State."
+  },
+  "Incorrecta2": {
+    "S": "Strategy, Command, Mediator, and Observer."
+  },
+  "Pregunta": {
+    "S": "This behavioral patterns address how you can decouple senders and receivers, but with different trade-offs:"
+  }
+}
+{
+  "ID": {
+    "S": "12"
+  },
+  "Correcta": {
+    "S": "Chain of responsibility"
+  },
+  "Incorrecta1": {
+    "S": "Iterator"
+  },
+  "Incorrecta2": {
+    "S": "Observer"
+  },
+  "Pregunta": {
+    "S": "________ can use Command to represent requests as objects."
+  }
+}
+{
+  "ID": {
+    "S": "13"
+  },
+  "Correcta": {
+    "S": "Command"
+  },
+  "Incorrecta1": {
+    "S": "Mediator"
+  },
+  "Incorrecta2": {
+    "S": "Iterator"
+  },
+  "Pregunta": {
+    "S": "______ and Memento act as magic tokens to be passed around and invoked at a later time."
+  }
+}
+{
+  "ID": {
+    "S": "14"
+  },
+  "Correcta": {
+    "S": "Command"
+  },
+  "Incorrecta1": {
+    "S": "Visitor"
+  },
+  "Incorrecta2": {
+    "S": " State"
+  },
+  "Pregunta": {
+    "S": "In _______, the token represents a request"
+  }
+}
+{
+  "ID": {
+    "S": "15"
+  },
+  "Correcta": {
+    "S": "Mediator"
+  },
+  "Incorrecta1": {
+    "S": "Flyweight"
+  },
+  "Incorrecta2": {
+    "S": "Facade"
+  },
+  "Pregunta": {
+    "S": "_________ abstracts/centralizes arbitrary communication between colleague objects, it routinely "adds value", and it is known/referenced by the colleague objects."
+  }
+}
+{
+  "ID": {
+    "S": "16"
+  },
+  "Correcta": {
+    "S": "Facade"
+  },
+  "Incorrecta1": {
+    "S": "Mediator"
+  },
+  "Incorrecta2": {
+    "S": "Flyweight"
+  },
+  "Pregunta": {
+    "S": " ______ defines a simpler interface to a subsystem, it doesn't add new functionality, and it is not known by the subsystem classes."
+  }
+}
+{
+  "ID": {
+    "S": "17"
+  },
+  "Correcta": {
+    "S": "Strategy"
+  },
+  "Incorrecta1": {
+    "S": "State"
+  },
+  "Incorrecta2": {
+    "S": "Facade"
+  },
+  "Pregunta": {
+    "S": "______ is to algorithm. as Builder is to creation."
+  }
+}
+{
+  "ID": {
+    "S": "18"
+  },
+  "Correcta": {
+    "S": "Strategy"
+  },
+  "Incorrecta1": {
+    "S": "State"
+  },
+  "Incorrecta2": {
+    "S": "Facade"
+  },
+  "Pregunta": {
+    "S": "______ is to algorithm. as Builder is to creation."
+  }
+}
+{
+  "ID": {
+    "S": "19"
+  },
+  "Correcta": {
+    "S": "Template method"
+  },
+  "Incorrecta1": {
+    "S": "State"
+  },
+  "Incorrecta2": {
+    "S": "Strategy"
+  },
+  "Pregunta": {
+    "S": "_______ method uses inheritance to vary part of an algorithm."
+  }
+}
+{
+  "ID": {
+    "S": "20"
+  },
+  "Correcta": {
+    "S": "Strategy"
+  },
+  "Incorrecta1": {
+    "S": "Template"
+  },
+  "Incorrecta2": {
+    "S": "Flyweights"
+  },
+  "Pregunta": {
+    "S": "_______ uses delegation to vary the entire algorithm."
+  }
+}
+{
+  "ID": {
+    "S": "21"
+  },
+  "Correcta": {
+    "S": "Adapter"
+  },
+  "Incorrecta1": {
+    "S": "Decorator"
+  },
+  "Incorrecta2": {
+    "S": "Composite"
+  },
+  "Pregunta": {
+    "S": "_______ provides a different interface to its subject. Proxy provides the same interface."
+  }
+}
+{
+  "ID": {
+    "S": "22"
+  },
+  "Correcta": {
+    "S": "lets you change the skin of an object."
+  },
+  "Incorrecta1": {
+    "S": "lets you change the guts."
+  },
+  "Incorrecta2": {
+    "S": "lets you change an object's interface."
+  },
+  "Pregunta": {
+    "S": "This Structural pattern: "
+  }
+}
+{
+  "ID": {
+    "S": "23"
+  },
+  "Correcta": {
+    "S": "Is a piece of software or hardware that serves no useful purpose on the current project."
+  },
+  "Incorrecta1": {
+    "S": "Is a familiar technology or concept applied obsessively to many software problems."
+  },
+  "Incorrecta2": {
+    "S": "Code reused by copying source statements."
+  },
+  "Pregunta": {
+    "S": "What is a boat anchor?"
+  }
+}
+{
+  "ID": {
+    "S": "24"
+  },
+  "Correcta": {
+    "S": "Is a familiar technology or concept applied obsessively to many software problems."
+  },
+  "Incorrecta1": {
+    "S": "Is a piece of software or hardware that serves no useful purpose on the current project."
+  },
+  "Incorrecta2": {
+    "S": "Is the output of experienced, nonobject-oriented developers who design and implement an application in an object-oriented language."
+  },
+  "Pregunta": {
+    "S": "What is a Golden Hammer?"
+  }
+}
+{
+  "ID": {
+    "S": "25"
+  },
+  "Correcta": {
+    "S": "Poltergeists"
+  },
+  "Incorrecta1": {
+    "S": "The Blob"
+  },
+  "Incorrecta2": {
+    "S": "Spaghetti Code."
+  },
+  "Pregunta": {
+    "S": "______ are classes with very limited roles and effective life cycles. They often start processes for other objects."
+  }
+}
+{
+  "ID": {
+    "S": "26"
+  },
+  "Correcta": {
+    "S": " Is a phenomenon where industry trends, or other items that do not immediately correspond to technical needs, mandate a continual readaptation of a system."
+  },
+  "Incorrecta1": {
+    "S": "Is an explicit policy to keep system developers isolated from the system’s end users."
+  },
+  "Incorrecta2": {
+    "S": "Is a familiar technology or concept applied obsessively to many software problems."
+  },
+  "Pregunta": {
+    "S": "What is continuous obsolescence?"
+  }
+}
+{
+  "ID": {
+    "S": "27"
+  },
+  "Correcta": {
+    "S": "Spaghetti Code"
+  },
+  "Incorrecta1": {
+    "S": "Functional Decomposition"
+  },
+  "Incorrecta2": {
+    "S": "Input Kludge"
+  },
+  "Pregunta": {
+    "S": "_______ AntiPattern defines a software development process that incorporates refactoring."
+  }
+}
+{
+  "ID": {
+    "S": "28"
+  },
+  "Correcta": {
+    "S": "input kludge"
+  },
+  "Incorrecta1": {
+    "S": "Spaghetti Code"
+  },
+  "Incorrecta2": {
+    "S": "Ad hoc software"
+  },
+  "Pregunta": {
+    "S": "Software that fails straightforward behavioral tests may be an example of an _______."
+  }
+}
+{
+  "ID": {
+    "S": "29"
+  },
+  "Correcta": {
+    "S": "singleton"
+  },
+  "Incorrecta1": {
+    "S": "Builder"
+  },
+  "Incorrecta2": {
+    "S": "Factory"
+  },
+  "Pregunta": {
+    "S": "Abstract Factory, Builder, and Prototype can use _______ in their implementation."
+  }
+}
+{
+  "ID": {
+    "S": "30"
+  },
+  "Correcta": {
+    "S": "Factory"
+  },
+  "Incorrecta1": {
+    "S": "Prototype"
+  },
+  "Incorrecta2": {
+    "S": "Template"
+  },
+  "Pregunta": {
+    "S": "_______ Method requires subclassing, but doesn't require Initialize."
+  }
+}
+{
+  "ID": {
+    "S": "31"
+  },
+  "Correcta": {
+    "S": "Factory"
+  },
+  "Incorrecta1": {
+    "S": "Prototype"
+  },
+  "Incorrecta2": {
+    "S": "Template"
+  },
+  "Pregunta": {
+    "S": "_______ Method requires subclassing, but doesn't require Initialize."
+  }
+}
+{
+  "ID": {
+    "S": "32"
+  },
+  "Correcta": {
+    "S": "Prototype"
+  },
+  "Incorrecta1": {
+    "S": "Factory method"
+  },
+  "Incorrecta2": {
+    "S": "Template method"
+  },
+  "Pregunta": {
+    "S": "______ doesn't require subclassing, but it does require an Initialize operation. "
+  }
+}
+{
+  "ID": {
+    "S": "33"
+  },
+  "Correcta": {
+    "S": "Facade"
+  },
+  "Incorrecta1": {
+    "S": "Builder"
+  },
+  "Incorrecta2": {
+    "S": "Singleton"
+  },
+  "Pregunta": {
+    "S": "Abstract Factory can be used as an alternative to ______ to hide platform-specific classes."
+  }
+}
+{
+  "ID": {
+    "S": "34"
+  },
+  "Correcta": {
+    "S": "Is to encapsulate the absence of an object by providing a substitutable alternative that offers suitable default do nothing behavior."
+  },
+  "Incorrecta1": {
+    "S": "Promote undo or rollback to full object status."
+  },
+  "Incorrecta2": {
+    "S": "Allow an object to alter its behavior when its internal state changes."
+  },
+  "Pregunta": {
+    "S": "What is the function of Null object?"
+  }
+}
+{
+  "ID": {
+    "S": "35"
+  },
+  "Correcta": {
+    "S": "An object requires a collaborator. The Null Object pattern does not introduce this collaboration--it makes use of a collaboration that already exists"
+  },
+  "Incorrecta1": {
+    "S": "Directories contain entries, each of which could be a directory."
+  },
+  "Incorrecta2": {
+    "S": "Redefine certain steps of an algorithm without changing the algorithm's structure."
+  },
+  "Pregunta": {
+    "S": "Use the Null Object pattern when: "
+  }
+}
+{
+  "ID": {
+    "S": "36"
+  },
+  "Correcta": {
+    "S": "Abstract Factory."
+  },
+  "Incorrecta1": {
+    "S": "Builder."
+  },
+  "Incorrecta2": {
+    "S": "Prototype."
+  },
+  "Pregunta": {
+    "S": "Creates an instance of several families of classes: "
+  }
+}
+{
+  "ID": {
+    "S": "37"
+  },
+  "Correcta": {
+    "S": "Singleton."
+  },
+  "Incorrecta1": {
+    "S": "Factory Method."
+  },
+  "Incorrecta2": {
+    "S": "Object Pool."
+  },
+  "Pregunta": {
+    "S": "It's a class of which only a single instance can exist: "
+  }
+}
+{
+  "ID": {
+    "S": "38"
+  },
+  "Correcta": {
+    "S": "An object representing another object."
+  },
+  "Incorrecta1": {
+    "S": "A tree structure of simple and composite objects."
+  },
+  "Incorrecta2": {
+    "S": "Match interfaces of different classes."
+  },
+  "Pregunta": {
+    "S": "What is Proxy Structural Design pattern: "
+  }
+}
+{
+  "ID": {
+    "S": "39"
+  },
+  "Correcta": {
+    "S": "A way to include language elements in a program."
+  },
+  "Incorrecta1": {
+    "S": "Sequentially access the elements of a collection."
+  },
+  "Incorrecta2": {
+    "S": "Defines simplified communication between classes."
+  },
+  "Pregunta": {
+    "S": "What is an Interpreter?"
+  }
+}
+{
+  "ID": {
+    "S": "40"
+  },
+  "Correcta": {
+    "S": "Visitor."
+  },
+  "Incorrecta1": {
+    "S": "Observer."
+  },
+  "Incorrecta2": {
+    "S": "Strategy."
+  },
+  "Pregunta": {
+    "S": "Defines a new operation to a class without change: "
+  }
+}
+{
+  "ID": {
+    "S": "41"
+  },
+  "Correcta": {
+    "S": "Mediator."
+  },
+  "Incorrecta1": {
+    "S": "Iterator."
+  },
+  "Incorrecta2": {
+    "S": "Strategy."
+  },
+  "Pregunta": {
+    "S": "This design pattern defines simplified communication between classes: "
+  }
+}
+{
+  "ID": {
+    "S": "42"
+  },
+  "Correcta": {
+    "S": "State."
+  },
+  "Incorrecta1": {
+    "S": "Strategy."
+  },
+  "Incorrecta2": {
+    "S": "Iterator."
+  },
+  "Pregunta": {
+    "S": "This design pattern Alter an object's behavior when its state changes: "
+  }
+}
+{
+  "ID": {
+    "S": "43"
+  },
+  "Correcta": {
+    "S": "Autogenerated Stovepipe."
+  },
+  "Incorrecta1": {
+    "S": "Stovepipe System."
+  },
+  "Incorrecta2": {
+    "S": "Design by Committee."
+  },
+  "Pregunta": {
+    "S": "This AntiPattern occurs when migrating an existing software system to a distributed infrastructure: "
+  }
+}
+{
+  "ID": {
+    "S": "44"
+  },
+  "Correcta": {
+    "S": "When horizontal and vertical design elements are intermixed, an unstable architecture results."
+  },
+  "Incorrecta1": {
+    "S": "when migrating an existing software system to a distributed infrastructure."
+  },
+  "Incorrecta2": {
+    "S": "Whe you have to deal with an excessively complex class interface."
+  },
+  "Pregunta": {
+    "S": "When is used Jumble?"
+  }
+}
+{
+  "ID": {
+    "S": "45"
+  },
+  "Correcta": {
+    "S": "Is an excessively complex class interface."
+  },
+  "Incorrecta1": {
+    "S": "Is an ad hoc manner using multiple integration strategies and mechanisms, and all are integrated point to point."
+  },
+  "Incorrecta2": {
+    "S": "Is the single-system analogy of Stovepipe Enterprise."
+  },
+  "Pregunta": {
+    "S": "What is a Swiss Army Knife?"
+  }
+}
+{
+  "ID": {
+    "S": "46"
+  },
+  "Correcta": {
+    "S": "Architecture-driven"
+  },
+  "Incorrecta1": {
+    "S": "Architecture AntiPatterns"
+  },
+  "Incorrecta2": {
+    "S": "Design Patterns"
+  },
+  "Pregunta": {
+    "S": "_______ software development is the most effective approach to building systems."
+  }
+}
+{
+  "ID": {
+    "S": "47"
+  },
+  "Correcta": {
+    "S": "Key scenarios in which  human communication and resolving people issues are destructive to software processes."
+  },
+  "Incorrecta1": {
+    "S": "People that frequently obstruct and divert the software development process."
+  },
+  "Incorrecta2": {
+    "S": "Personality conflicts between managers."
+  },
+  "Pregunta": {
+    "S": "The management AntiPatterns identify: "
+  }
+}
+{
+  "ID": {
+    "S": "48"
+  },
+  "Correcta": {
+    "S": "Separates an object’s interface from its implementation."
+  },
+  "Incorrecta1": {
+    "S": "Match interfaces of different classes."
+  },
+  "Incorrecta2": {
+    "S": "A tree structure of simple and composite objects."
+  },
+  "Pregunta": {
+    "S": "What is a Bridge?"
+  }
+}
+{
+  "ID": {
+    "S": "49"
+  },
+  "Correcta": {
+    "S": "Restricts accessor/mutator access."
+  },
+  "Incorrecta1": {
+    "S": "A single class that represents an entire subsystem."
+  },
+  "Incorrecta2": {
+    "S": "A fine-grained instance used for efficient sharing."
+  },
+  "Pregunta": {
+    "S": "What does a Private Class Data?"
+  }
+}
+{
+  "ID": {
+    "S": "50"
+  },
+  "Correcta": {
+    "S": "A way of passing a request between a chain of objects."
+  },
+  "Incorrecta1": {
+    "S": "Encapsulate a command request as an object."
+  },
+  "Incorrecta2": {
+    "S": "A way to include language elements in a program."
+  },
+  "Pregunta": {
+    "S": "What is Chain of responsibility?"
   }
 }
