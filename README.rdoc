@@ -26,29 +26,23 @@ For this program we use the <b>4 + 1 View Model</b> which consists of seeing the
 
 === Logical View
 
-The logical view contains information about the various parts of the system. In UML the logical view is typically modeled using <em>class diagrams</em>.
-
-For example, the following figure represents the UML class diagram for the +Greeter+ model and its factory class:
-
-You can include as many of these diagrams as you consider necessary. Note that you only need to specify the names of the classes and their relationships. Don’t include attributes or method names in these diagrams.
-
-To include an image in this document, copy it to the +img+ directory and refer it as: +rdoc-image:img/some_image.png+. You can use any web supported image format (PNG, JPEG, GIF, etc.).
+The logical view deals with the functionality of the system as it relates to end users. Class diagrams and state diagrams are examples of UML diagrams that are used to represent the logical view.
 
 === Process View
 
-The process view focuses on the runtime behavior of the system. In UML, <em>activity diagrams</em> are used to model this view.
+The process view focuses on the runtime behavior of the system and deals with the dynamic elements of the system. Explains system processes and how they communicate. Concurrency, distribution, integrator, performance, and scalability are covered in the process view. Sequence diagram, communication diagram, and activity diagram are all UML diagrams that can be used to describe a process view.
 
 === Development View
 
-The development view focuses on software modules and subsystems. In UML, <em>package diagrams</em> are used to model the development view.
+The development view describes a system from a programmer's point of view and deals with software management. Implementation view is another name for this view. Describe the components of the system using the UML component diagram. The package diagram is one of the UML diagrams used to represent the development view.
 
 === Physical View
 
-The physical view describes the physical deployment of the system, revealing which pieces of software run on what pieces of hardware. In UML, <em>deployment diagrams</em> are used to model the physical view.
+The physical view portrays the system from the perspective of a systems engineer. The physical layer deals with the topology of software components as well as the physical connections between these components. Implementation view is another name for this view. The implementation diagram is one of the UML diagrams used to represent the physical perspective.
 
 === Scenarios
 
-This view describes the functionality of the system from the perspective from outside world. It contains diagrams describing what the system is supposed to do from a black box perspective. UML <em>use case diagrams</em> are used for this view.
+A small number of use cases, or scenarios, are used to illustrate the architecture description. The sequences of interactions between objects and processes are described in the scenarios. It is used to identify architectural aspects, as well as to demonstrate and evaluate the design of the architecture. They can also be used as a starting point for architectural prototype testing. The use case view is another name for this view.
 
 == References
 - \A. Ortiz. <em>ArielOrtiz.info</em> {https://arielortiz.info/apps/s202213/tc3049/programming_microservices/}[https://arielortiz.info/apps/s202213/tc3049/programming_microservices/] Accesed November 10, 2022.
